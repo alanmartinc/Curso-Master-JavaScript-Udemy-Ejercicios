@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Master en JavaScript - Victor Robles WEB</title>
+	<script type="text/javascript" src="js/EjercicioCompletoConDom-Eventos-Funciones.js"></script>
+	<style>
+		.box {
+			width: 200px;
+			height: 250px;
+			float: left;
+			margin: 20px;
+		}
+
+		.dashed {
+			border: 3px dashed black;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<!--
+		1. Formulario campos: Nombre, Apellido y edad
+		2. Boton de enviar el formulario: eventos submit
+		3. Mostrar datos por pantalla
+		4. Tener un botón que al darle click nos muestra los datos actuales del formulario
+	-->
+	<h1>Ejercicio DOM, Eventos y funciones</h1>
+
+	<div class="box">
+		<form action="#" method="POST" id="formulario" onsubmit="return false;">
+			<label for="nombre">Nombre:</label> <br>
+			<input type="text" name="nombre" id="nombre"> <br>
+			
+			<label for="apellidos">Apellidos</label> <br>
+			<input type="text" name="apellidos" id="apellidos"> <br>
+
+			<label for="edad">Edad</label> <br>
+			<input type="number" name="edad" id="edad"> <br>
+
+			<input type="submit" value="Enviar" id="submit">
+		</form>
+	</div>
+	<div class="box dashed">
+		<h3>Informacion del usuario</h3>
+		<hr>
+		<p id="p_nombre">
+			Nombre: <span></span>
+		</p>
+		<p id="p_apellidos">
+			Apellidos: <span></span>
+		</p>
+		<p id="p_edad">
+			Edad: <span></span>
+		</p>
+	</div>
+</body>
+</html>
