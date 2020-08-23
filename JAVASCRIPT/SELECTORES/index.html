@@ -12,6 +12,15 @@
 		.grande {
 			font-size: 30px;
 		}
+
+		.margen-superior {
+			display: block;
+			margin-top: 45px;
+		}
+
+		.resaltado {
+			border-bottom: 2px solid brown;
+		}
 	</style>
 </head>
 <body>
@@ -26,7 +35,17 @@
 	<p id="amarillo" class="sin_borde">Practicando con selectores</p>
 	<p class="zebra">Soy un parrafo blanco</p>
 
+	<div id="caja">
+		<p>Hola soy una caja</p>
+		<ul>
+			<li>Elemento 1</li>
+			<li id="elemento2">Elemento 2</li>
+		</ul>
+
+		<span class="resaltado">Soy un span</span>
+	</div>
+
 	<script type="text/javascript" src="js/jquery-git.min.js"></script>
-	<script type="text/javascript" src="SelectorDeAtributo.js"></script>
+	<script type="text/javascript" src="Find-Parent.js"></script>
 </body>
 </html>
