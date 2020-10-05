@@ -1,4 +1,8 @@
 $(document).ready(function(){
-    console.log("hola");
+    
+    // Mover elemento por la pagina
     $(".elemento").draggable();
+
+    // Redimensionar 
+    $(".elemento").resizable();
 });
