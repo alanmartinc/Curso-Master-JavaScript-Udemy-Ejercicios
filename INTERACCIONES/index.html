@@ -17,10 +17,28 @@
             margin: 20px;
             float: left;
         }
+        .lista-seleccionable {
+            width: 80%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        ul .ui-selecting {background: green;}
+        ul .ui-selected {background: blue;}
     </style>
 </head>
 <body>
     <h1>Curso Master en JavaScript</h1>
+
+    <ul class="lista-seleccionable">
+        <li>GTA 5</li>
+        <li>Need For Speed</li>
+        <li>Crash Bandicoot</li>
+        <li>Super Mario</li>
+        <li>Galaxian</li>
+    </ul>
 
     <div class="elemento">
         Hola, soy un elemento de la web 1
