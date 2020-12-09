@@ -13,4 +13,12 @@ $(document).ready(function(){
             console.log("Ha cambiado la lista");
         }
     });
+
+    // Drop
+    $("#elemento-movido").draggable();
+    $("#area").droppable({
+        drop: function(){
+            console.log("Has soltado algo dentro de el area");
+        }
+    });
 });
