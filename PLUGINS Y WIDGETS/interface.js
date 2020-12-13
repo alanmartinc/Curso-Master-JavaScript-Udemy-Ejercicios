@@ -31,4 +31,9 @@ $(document).ready(function(){
     $(document).tooltip({
         theme: 'tooltipster-noir'
     });
+
+    // Dialog
+    $("#lanzar-popup").click(function(){
+        $("#popup").dialog();
+    })
 });
