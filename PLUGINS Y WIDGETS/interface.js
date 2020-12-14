@@ -35,5 +35,8 @@ $(document).ready(function(){
     // Dialog
     $("#lanzar-popup").click(function(){
         $("#popup").dialog();
-    })
+    });
+
+    // Datepicker
+    $("#calendario").datepicker();
 });
