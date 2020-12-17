@@ -24,7 +24,7 @@ body {
 
 #logo {
     font-family: Verdana, Arial;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 4px;
     background: #235E3D;
     color: white;
@@ -34,4 +34,36 @@ body {
     margin-bottom: 20px;
     line-height: 75px;
     float: left;
+    text-transform: uppercase;
+}
+
+#menu {
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul {
+    line-height: 46px;
+    list-style: none;
+}
+
+#menu ul li {
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover {
+    background: #235E3D;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
 }
