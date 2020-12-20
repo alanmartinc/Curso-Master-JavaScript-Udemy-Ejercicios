@@ -17,7 +17,7 @@ body {
     width: 65%;
     margin: 0px auto;
     margin-top: 30px;
-    padding: 20px;
+    padding: 25px;
     background: white;
     box-shadow: 0px 0px 2px #ccc;
 }
@@ -107,4 +107,53 @@ body {
     margin-top: 10px;
     width: 70px;
     margin-bottom: 20px;
+}
+
+#sidebar {
+    font-family: Helvetica, Arial;
+    width: 31%;
+    float: right;
+}
+
+#sidebar h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span {
+    background: white;
+    padding: 5px;
+}
+
+#sidebar img {
+    width: 100%;
+}
+
+#sidebar p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
 }
